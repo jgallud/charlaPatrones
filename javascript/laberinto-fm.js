@@ -35,14 +35,14 @@ function Pared(){
 function Habitacion(){
 	this.nombre="Habitacion";
 	this.id=null;
-	this.lados=[];
+	//this.lados=[];
 	this.norte=null;
 	this.este=null;
 	this.oeste=null;
 	this.sur=null;
-	this.agregarLado=function(em){
-		this.lados.push(em);
-	}
+	//this.agregarLado=function(em){
+	//	this.lados.push(em);
+	//}
 	//this.lados.push(new Pared());
 	//this.lados.push(new Pared());
 	//this.lados.push(new Pared());
